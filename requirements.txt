@@ -8,3 +8,6 @@ pillow
 python-multipart
 tensorflow
 email-validator
+python-jose
+passlib
+bcrypt
