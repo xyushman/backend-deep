@@ -7,3 +7,4 @@ joblib
 pillow
 python-multipart
 tensorflow
+email-validator
