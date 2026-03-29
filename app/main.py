@@ -66,7 +66,7 @@ def root():
 # =========================
 # CROP PREDICTION API
 # =========================
-@app.post("/predict-crop")
+@app.post("/predict")
 def predict_crop(data: CropInput):
     input_df = pd.DataFrame([{
         "N": data.N,
